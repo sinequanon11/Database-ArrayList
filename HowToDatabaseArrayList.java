@@ -1,5 +1,3 @@
-package Utilities;
-
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -24,7 +22,7 @@ public class DatabaseArrayList {
     {       
         ArrayList< ArrayList<String> > table = new ArrayList<>();      
         
-        // OPEN THE DATABASE
+        // OPEN THE DATABASE CONNECTION
         
         DBConnectionOpen();    
 
